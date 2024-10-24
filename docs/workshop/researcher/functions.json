@@ -25,14 +25,14 @@
   {
     "type": "function",
     "function": {
-      "name": "find_entities",
-      "description": "Finds entities on the web given a query. This function uses the Bing Search API to find entities on the web given a query. This should be used to find people, places, or things but not news or general information.",
+      "name": "find_news",
+      "description": "Finds entities on the web given a query. This function uses the Bing Search API to find entities on the web given a query. This should be used to find people, places, or things but not news or general information._text1",
       "parameters": {
         "type": "object",
         "properties": {
           "query": {
             "type": "string",
-            "description": "An optimal search query to find people, places or things on the web using the Bing Search API"
+            "description": "An optimal search query to find people, places or things on the web using the Bing Search API_text2"
           },
           "market": {
             "type": "string",
